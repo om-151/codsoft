@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="container nav">
+            <div class="logo">
+                <h2>My Landing Page</h2>
+            </div>
+            <nav>
+                <ul id="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>We Build Amazing Digital Solutions</h1>
+            <p>Your success is our mission. Elevate your business with our cutting-edge technology.</p>
+            <div class="hero-buttons">
+                <a href="#" class="btn primary">Get Started</a>
+                <a href="#" class="btn secondary">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="container">
+            <div class="about-text">
+                <h2>About Us</h2>
+                <p>We help businesses achieve success with innovative digital solutions.</p>
+                <a href="#" class="btn primary">Read More</a>
+            </div>
+            <div class="about-image">
+                <img src="https://img.freepik.com/free-photo/elegant-man-with-folded-arms_1262-727.jpg?t=st=1738749789~exp=1738753389~hmac=6fcde370204b5fe0773af399c3e864ca99da4d51db4810bc8bfb1b51059e2922&w=740"
+                    alt="About Us" width="500">
+            </div>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service-items">
+                <div class="service">
+                    <img src="https://img.freepik.com/premium-photo/web-development-coding-programming-internet-technology-business-concept_628331-833.jpg?w=740"
+                        alt="Web Development">
+                    <h3>Web Development</h3>
+                </div>
+                <div class="service">
+                    <img src="https://img.freepik.com/free-photo/search-engine-optimization_53876-119984.jpg?t=st=1738752418~exp=1738756018~hmac=ad3c73ef27a7d11f0123c499de489c79e4fcdf602f5c0faff85407664eeec75f&w=996"
+                        alt="SEO Optimization">
+                    <h3>SEO Optimization</h3>
+                </div>
+                <div class="service">
+                    <img src="https://img.freepik.com/free-photo/marketing-advertising-commercial-strategy-concept_53876-13733.jpg?t=st=1738752303~exp=1738755903~hmac=d012a5b2c17c3e70c6d222631ee1d0aa855ce46fbea649f9bea2fd56ea35beb5&w=740" alt="Marketing Strategies">
+                    <h3>Marketing Strategies</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="container">
+            <h2>Let's Work Together</h2>
+            <p>Have a project in mind? Let's turn your idea into reality.</p>
+            <form id="contactForm">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+</body>
+
+</html>

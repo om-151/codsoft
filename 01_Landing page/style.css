@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background: #f4f4f4;
+    color: #333;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+header {
+    background: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav ul li {
+    margin: 0 15px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.menu-toggle {
+    display: none;
+}
+
+.about-image img {
+    margin-top: 20px;
+}
+
+.hero {
+    background: url('https://img.freepik.com/free-photo/portrait-young-office-worker-woman-sitting-office-desk-using-laptop-computer-looking-busy-with-serious-confident-expression-face-working-office_141793-21264.jpg?t=st=1738750007~exp=1738753607~hmac=1e1751ba5caa91bbe537811f628e1718680827ea15d1bbfbe0ba4596eeaade45&w=740') center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 40px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    text-decoration: none;
+}
+
+.primary {
+    background: #ff5a5f;
+}
+
+.secondary {
+    background: #333;
+}
+
+.services {
+    text-align: center;
+    background: #eee;
+    padding: 50px 0;
+}
+
+.service-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.service img {
+    width: 30%;
+    border-radius: 50%;
+}
+
+.contact {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.contact form {
+    max-width: 500px;
+    margin: auto;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
